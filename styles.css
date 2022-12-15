@@ -232,6 +232,8 @@ right: 16px;
 
     .div-card {
         background: none;
+        box-shadow: none;
+        border-radius: none;
     }
 
     .logo_copa_mobile {
