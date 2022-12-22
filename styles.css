@@ -1,0 +1,278 @@
+* {
+    font-family: 'Raleway';
+}
+:root{
+    --border-radius: 5px;
+}
+/* ESTILOS LOGIN */
+body#login {
+    background: url(./img/messi.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.logo_copa_mobile {
+    display: none;
+}
+
+.container-login {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92.3vh;
+}
+
+.div-card {
+    background: #FFFFFF;
+    padding: 40px;
+    width: 364px;
+    height: 301px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius)
+}
+
+.h1login {
+    font-style: bolder;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+}
+
+.btn-iniciarsesion {
+    background-color: #24305E;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    text-align: right;
+}
+
+.minilogoguayerd {
+    display: none;
+}
+
+/* ESTILOS MAP */
+
+#body-map {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-map {
+    z-index: 2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-cerrarsesion {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    background: #374785;
+    color: #FFFFFF;
+    border: 1px solid #24305E;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+}
+
+.logoscaloneta {
+    display: flex;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#select {
+    font-weight: 400;
+    font-size: 13px;
+    background-color: #FFFFFF;
+    color: #C6C6C6;
+    box-sizing: border-box;
+    width: 326px;
+    height: 38px;
+    border: 1px solid #C6C6C6;
+    box-shadow: 0px 4px 4px rgba(25, 1, 1, 0.25), inset 0px 0px 3px rgba(0, 0, 0, 0.18);
+    border-radius: var(--border-radius);
+    z-index: 1;
+    position: absolute;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container-fluid {
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 17px;
+    line-height: 20px;
+}
+.h1Nuestros {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #119DD8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+spam {
+    color: black;
+    margin-left: 15px;
+  
+}
+.jugadores {
+    position: fixed;
+    left: calc(50% - 1100px/2);
+    top: calc(50% - 815px/2 - 0.5px);
+    width: 1100px/2;
+    height: 815px/2;
+}
+h5 {
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 10px;
+}
+.card {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #EBEBEB;
+    border-radius: var(--border-radius);
+}
+.card-img-top {
+    border-radius: var(--border-radius);
+}
+.card-body{
+    width: 348px;
+    height: 195px;
+}
+.card .img-wrapper {
+    height: 250px;
+    overflow: hidden;
+    }
+.NumCamiseta{
+    position: absolute;
+font-weight: 800;
+font-size: 28px;
+line-height: 33px;
+color: #FFFFFF;
+top:9px;
+right: 16px;
+}
+/* CSS MAPA */
+#map {
+    height: 100%;
+    z-index: 0;
+}
+
+/* RESPONSIVE MOBILE LOGIN*/
+@media only screen and (max-width: 500px) {
+    body#login {
+        background: none;
+
+    }
+
+    main {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .btn-iniciarsesion {
+        box-sizing: border-box;
+        background: #374785;
+        border: 1px solid #24305E;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: var(--border-radius);
+    }
+
+    .h1login {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .div-card {
+        background: none;
+    }
+
+    .logo_copa_mobile {
+        display: flex;
+    }
+
+    footer {
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        bottom: 10px;
+    }
+
+    .logoguayerd {
+        display: none;
+    }
+
+    .minilogoguayerd {
+        display: flex;
+    }
+
+    .btn-cerrarsesion {
+        width: 357px;
+        height: 38px;
+
+    }
+    .logoscaloneta{
+        flex-direction: row;
+        align-items: flex-start;
+    
+    }
+    .h1Nuestros {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        padding: 20px;
+    }
+    spam {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+}
+}
